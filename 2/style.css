@@ -1,0 +1,60 @@
+body {
+  padding: 20px 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: #999;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+
+a {
+  color: #000;/*I changed the link color to black to highlight on the blue background.*/
+  margin-top: 10px;
+  margin-left: 10px; /*Add a space between the left margin and the beginning of the text.*/
+  display: flex;
+  text-decoration: none; /*Will remove the underline from the link*/
+}
+
+.box { /*Creates a class*/
+	background-color: #67aee5;
+	border-radius: 20px; 
+	padding: 10px;
+	margin: 10px auto;
+} 
+
+.menu{
+display: inline-block; /*Places the objects side by side*/
+width: 200px;
+height: 50px;
+}
+
+#first {
+background: blue;
+}
+#second {
+background: red;
+}
+#third {
+background: yellow;
+}
+#fourth {
+background: orange;
+}
+#fifth {
+background: green;
+}
+#sixth {
+background: gray;
+}
